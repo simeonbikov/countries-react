@@ -5,7 +5,7 @@ Body {
   text-align: center;
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -14,10 +14,17 @@ Body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
+} */
+
+#searchInput {
+  width: 25rem;
+  padding: 12px 20px;
+  margin: 25px 0 0;
+  box-sizing: border-box;
 }
 
 .cards-container {
@@ -34,12 +41,11 @@ Body {
   margin: 35px;
   border-radius: 10px;
   overflow: hidden;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
   box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
   text-align: left;
 }
-
 
 .card p, h3 {
   margin-left: 25px;
